@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>FLIXPERT</title>
+		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+	</head>
+	<body>
+	<div align="center">
+	<font size="200">FLIXPERT</font>
+	<br><br>
+		<img src="img/flixpert.jpg" height="300" width="300" />
+		<p>Everyone thinks they are an expert</p>
+		<p>Now you get to prove it</p>
+		<br>
+	<form  action="login.php" autocomplete="on"> 
+		<!--h1>Log in</h1--> 
+		<p> 
+          <label for="username" class="uname" data-icon="u" >Username:</label>
+          <input id="username" name="username" required="required" type="text" placeholder="Username"/>
+		</p>
+		<p> 
+          <label for="password" class="youpasswd" data-icon="p">Password:</label>
+          <input id="password" name="password" required="required" type="password" placeholder="Password" /> 
+		</p>
+		<p class="keeplogin"> 
+          <input type="checkbox" name="loginkeeping" id="loginkeeping" value="loginkeeping" /> 
+          <label for="loginkeeping">Keep me logged in</label>
+		</p>
+		<p class="login button"> 
+          <input type="submit" value="Sign In" /> 
+		</p>
+	</form>
+
+	<!--div ng-app="">
+		<p>Email: <input type="text" ng-model="name"></p>
+		<p ng-bind="name"></p>
+	</div>
+	<div ng-app="">
+		<p>Password: <input type="text" ng-model="password"></p>
+		<p ng-bind="password"></p>
+	</div-->
+	<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.15/angular.min.js"></script>
+	</body>
+</html>
